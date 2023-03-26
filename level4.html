@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/level1.css">
+    <title>Tetris-Level 4</title>
+    <link href="img/couqdev.png" rel="icon">
+</head>
+<body>
+
+<div style="width: 1400px; margin: auto">
+<div id="header" class="left">
+    <h1>Tetris</h1>
+    <div id="container">
+        <div class="level"><a href="level1.html"><button class="level_button">Level 1</button></a></div>
+        <div class="level"><a href="level2.html"><button class="level_button">Level 2</button></a></div>
+        <div class="level"><a href="level3.html"><button class="level_button">Level 3</button></a></div>
+        <div class="level"><a href="level4.html"><button class="level_button active">Level 4</button></a></div>
+        <div class="level"><a href="level5.html"><button class="level_button">Level 5</button></a></div>
+        <div class="level"><a href="level6.html"><button class="level_button">Level 6</button></a></div>
+        <div class="level"><a href="#"><button class="level_button">Guid</button></a></div>
+    </div>
+</div>
+<div class="right">
+    <div id="center" style="width: 1000px">
+        <div id="leftLayout">
+
+            <canvas id="TetrisGame"></canvas>
+            <div class="scoreLayout">Score: <span id="score">0</span></div>
+        </div>
+        <div id="rightLayout">
+            <button id="play"  class="play green" onclick="">Play</button>
+            <button id="reload" class="play red" onclick="">Reload</button>
+            <button id="playAudio" class="audio green" onclick="">Play Audio</button>
+            <button id="pauseAudio" class="audio green" onclick="">Pause Audio</button>
+            <div id="over"></div>
+        </div>
+        <audio id="demo" src="sound/playing.mp3" loop></audio>
+        <script src="js/level4.js"></script>
+    </div>
+</div>
+</div>
+</body>
+</html>

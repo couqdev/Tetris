@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('/font/PressStart2P-Regular.ttf');
+}
+* {
+    font-family: "PressStart2P";
+}
+body{
+    background-image: url('/img/background.png');
+    background-size: cover;
+    position: relative;
+}
+
+#container{
+    width: 100px;
+    margin: auto;
+}
+#button_ready{
+    height: 50px;
+    width: 100px;
+    margin-top: 550px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
