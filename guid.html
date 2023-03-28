@@ -5,12 +5,92 @@
     <title>Guid</title>
 </head>
 <style>
-    #contain{
-
+    @font-face {
+        font-family: 'PressStart2P';
+        src: url('/font/PressStart2P-Regular.ttf');
     }
-
+    body {
+        background-color: rgb(98, 98, 147);
+    }
+    header{
+        font-family: "PressStart2P";
+        margin: auto;
+        width: 200px;
+        text-align: center;
+        color: darkgray;
+    }
+    #contain{
+    margin: auto;
+        width: 1000px;
+    }
+    li{
+        font-family: "Arial";
+        color: black;
+        box-shadow: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h2{
+        text-align: center;
+        color: darkgray;
+        font-family: "PressStart2P";
+    }
+    p{
+        font-family: "Arial";
+        color: black;
+        box-shadow: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
 </style>
 <body>
-<div id="contain"></div>
+<div id="contain">
+    <header><h1>GUID</h1></header>
+    <div class="level_guid">
+        <h2>Overview of how to play</h2>
+                <li>LEFT KEY: the brick block will move to the left.</li>
+                <li>RIGHT KEY: the brick block will move to the right.</li>
+                <li>DOWN KEY: the block blocks will move down under.</li>
+                <li>UP KEY: the block will change direction.</li>
+    </div>
+    <div class="level_guid">
+        <h2>Level 1</h2>
+        <li>The player stacks blocks of bricks to fill at least 1 row so that the row disappears.</li>
+    </div>
+    <div class="level_guid">
+        <h2>Level 2</h2>
+        <li>The game will appear an additional obstacle that will continuously run back and forth and when the block touches the obstacle, the game will end, you will receive a defeat message on the screen.</li>
+    </div>
+    <div class="level_guid">
+        <h2>Level 3</h2>
+        <li>Every 15s the Board will automatically generate a bottom line, which means the space on the board is also narrowing.</li>
+        <li>The player's task is to arrange the blocks as quickly as possible so as not to lose.</li>
+    </div>
+    <div class="level_guid">
+        <h2>Level 4</h2>
+        <li>You will control a block of bricks located in the top row, the Board game will automatically generate more bottom lines that will cause the lines to be pushed up.</li>
+        <li>The game will end when the board is full to the top row.</li>
+        <ul>
+            <li>LEFT KEY: the brick block will move to the left.</li>
+            <li>RIGHT KEY: the brick block will move to the right.</li>
+            <li>DOWN KEY: the block blocks will move down under.</li>
+        </ul>
+
+    </div>
+    <div class="level_guid">
+        <h2>Level 5</h2>
+        <li>Blocks after falling to a certain position will be moved to a new location in the game.</li>
+        <li>In this game screen, the player also has a special brick block, when it hits the ground it will delete the row above it,
+            below it and the row where it landed.</li>
+    </div>
+    <div class="level_guid">
+        <h2>Level 6</h2>
+        <li>This play screen has a size of 20X20 cells, once playing will randomly appear obstacles.
+             You have the task of destroying those obstacles by lining up the bricks so that they are in the same row with the obstacles.
+             When that row is filled it will remove the obstacle as well. With each row cleared, the obstacles will gradually move down.
+            </li>
+        <li>After destroying all obstacles you will win.</li>
+    </div>
+</div>
 </body>
 </html>
