@@ -6,7 +6,7 @@
     font-family: "PressStart2P";
 }
 body{
-    background-image: url('/img/background.png');
+    background-image: url('/Tetris/img/background.png');
     background-size: cover;
     position: relative;
 }
